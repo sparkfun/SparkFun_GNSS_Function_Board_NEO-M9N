@@ -1074,6 +1074,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="5.1KOHM" prefix="R" uservalue="yes">
+<gates>
+<gate name="R1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="5.1KOHM-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="R1" pin="1" pad="1"/>
+<connect gate="R1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12083" constant="no"/>
+<attribute name="VALUE" value="5.1k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/16W-1%" package="0402">
+<connects>
+<connect gate="R1" pin="1" pad="1"/>
+<connect gate="R1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14340" constant="no"/>
+<attribute name="VALUE" value="5.1k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="R1" pin="1" pad="1"/>
+<connect gate="R1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14340" constant="no"/>
+<attribute name="VALUE" value="5.1k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Jumpers">
@@ -21825,7 +21868,7 @@ Out</text>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="B1" library="SparkFun-Batteries" deviceset="ML414H_IV01E_BATTERY" device="" value="6.8MM_COIN_CELL"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -21837,30 +21880,30 @@ Out</text>
 <part name="PPS" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="0.5A/40V/420mV"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="R5" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="LED2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="3.3V"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="R9" library="SparkFun-Resistors" deviceset="27OHM" device="" value="27OHM"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="27OHM" device="" value="27OHM"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="27OHM" device="-0603-1/10W-1%" value="27"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="27OHM" device="-0603-1/10W-1%" value="27"/>
 <part name="SPI" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U1" library="SparkFun-GPS" deviceset="U-BLOX_NEO-M9N" device=""/>
 <part name="PWR\" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="D3" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="_2-LAYER_PADS"/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R16" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="E1" library="SparkFun-RF" deviceset="ANTENNA-SMA-GROUNDED" device="EDGE_SMA_SMD" value="ANTENNA-SMA-GROUNDEDEDGE_SMA_SMD"/>
 <part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD-120_OHM" device="-0402" value="120Ω"/>
@@ -21870,9 +21913,9 @@ Out</text>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402-1/16W-1%" value="100K"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="33OHM_RA" device="-1206-1/16W-5%" value="33"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402-1/16W-1%" value="10k"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
@@ -21896,11 +21939,14 @@ Out</text>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH" value="SFE_LOGO_NAME_FLAME.2_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
+<part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="237.744" y="7.366" size="2.54" layer="94" font="vector">V10</text>
+<text x="237.744" y="7.366" size="2.54" layer="94" font="vector">v10</text>
 <text x="43.18" y="109.22" size="1.778" layer="97" font="vector" align="center">7-bit unshifted I2C address: 0x42</text>
 <wire x1="0" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="97" style="longdash"/>
 <text x="22.86" y="81.28" size="1.778" layer="97" font="vector">Cut jumper to remove 
@@ -22062,11 +22108,11 @@ enable SPI</text>
 <attribute name="NAME" x="147.32" y="141.986" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="147.32" y="157.734" size="1.778" layer="96" rot="MR180" align="top-left"/>
 </instance>
-<instance part="J3" gate="J1" x="116.84" y="154.94" smashed="yes">
-<attribute name="VALUE" x="114.3" y="142.494" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+<instance part="J3" gate="J1" x="109.22" y="154.94" smashed="yes">
+<attribute name="VALUE" x="106.68" y="142.494" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 </instance>
-<instance part="GND17" gate="1" x="134.62" y="142.24" smashed="yes">
-<attribute name="VALUE" x="132.08" y="139.7" size="1.778" layer="96" font="vector"/>
+<instance part="GND17" gate="1" x="134.62" y="123.952" smashed="yes">
+<attribute name="VALUE" x="132.08" y="121.412" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R16" gate="G$1" x="22.86" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.86" y="34.036" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
@@ -22186,6 +22232,17 @@ enable SPI</text>
 </instance>
 <instance part="LOGO2" gate="G$1" x="66.04" y="-2.54" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="134.62" y="10.16" smashed="yes"/>
+<instance part="R3" gate="R1" x="124.46" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="122.936" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="120.904" y="142.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R4" gate="R1" x="127" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.556" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="128.524" y="142.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND8" gate="1" x="124.46" y="124.46" smashed="yes">
+<attribute name="VALUE" x="121.92" y="121.92" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22305,16 +22362,6 @@ enable SPI</text>
 <junction x="22.86" y="119.38"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="D3" gate="D1" pin="2"/>
-<wire x1="134.62" y1="149.86" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="J3" gate="J1" pin="GND"/>
-<wire x1="134.62" y1="147.32" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="134.62" y1="147.32" x2="134.62" y2="144.78" width="0.1524" layer="91" style="longdash"/>
-<junction x="134.62" y="147.32"/>
-</segment>
-<segment>
 <pinref part="GND27" gate="1" pin="GND"/>
 <pinref part="E1" gate="G$1" pin="GND"/>
 <wire x1="213.36" y1="86.36" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
@@ -22355,6 +22402,26 @@ enable SPI</text>
 <wire x1="78.74" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="50.8" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R3" gate="R1" pin="1"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="124.46" y1="132.08" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="R4" gate="R1" pin="1"/>
+<wire x1="124.46" y1="129.54" x2="124.46" y2="127" width="0.1524" layer="91"/>
+<wire x1="127" y1="132.08" x2="127" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="127" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
+<junction x="124.46" y="129.54"/>
+</segment>
+<segment>
+<wire x1="144.78" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="D3" gate="D1" pin="2"/>
+<wire x1="134.62" y1="149.86" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="J3" gate="J1" pin="GND"/>
+<wire x1="134.62" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="134.62" y1="126.492" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
+<junction x="134.62" y="147.32"/>
 </segment>
 </net>
 <net name="SCL/SCK" class="0">
@@ -22574,7 +22641,7 @@ enable SPI</text>
 <wire x1="132.08" y1="152.4" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
 <label x="134.62" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="J1" pin="SHLD"/>
-<wire x1="129.54" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="149.86" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -22584,7 +22651,7 @@ enable SPI</text>
 <wire x1="142.24" y1="144.78" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="D3" gate="D1" pin="1"/>
 <pinref part="J3" gate="J1" pin="D-"/>
-<wire x1="129.54" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_D+" class="0">
@@ -22593,7 +22660,7 @@ enable SPI</text>
 <pinref part="D3" gate="D1" pin="3"/>
 <wire x1="134.62" y1="154.94" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="J3" gate="J1" pin="D+"/>
-<wire x1="134.62" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="160.02" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_ANT1" class="3">
@@ -22740,7 +22807,7 @@ enable SPI</text>
 <pinref part="D3" gate="D1" pin="5"/>
 <wire x1="167.64" y1="149.86" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="J3" gate="J1" pin="VBUS"/>
-<wire x1="167.64" y1="162.56" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="162.56" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
 <junction x="167.64" y="162.56"/>
 <pinref part="SUPPLY15" gate="G$1" pin="V_USB"/>
@@ -22804,6 +22871,22 @@ enable SPI</text>
 <pinref part="U3" gate="G$1" pin="A1"/>
 <wire x1="99.06" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="EEPROM_A1"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="J3" gate="J1" pin="CC1"/>
+<wire x1="121.92" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="127" y1="154.94" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R4" gate="R1" pin="2"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="J3" gate="J1" pin="CC2"/>
+<wire x1="121.92" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="152.4" x2="124.46" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R3" gate="R1" pin="2"/>
 </segment>
 </net>
 </nets>
