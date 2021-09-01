@@ -22379,6 +22379,11 @@ enable SPI</text>
 <label x="142.24" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="I2C_SCL"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="SCL"/>
+<wire x1="78.74" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
+<label x="73.66" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SDA/!CS" class="0">
 <segment>
@@ -22401,6 +22406,11 @@ enable SPI</text>
 <wire x1="139.7" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
 <label x="142.24" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="I2C_SDA"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="SDA"/>
+<wire x1="78.74" y1="45.72" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
+<label x="73.66" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
@@ -22794,20 +22804,6 @@ enable SPI</text>
 <pinref part="U3" gate="G$1" pin="A1"/>
 <wire x1="99.06" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="EEPROM_A1"/>
-</segment>
-</net>
-<net name="I2C_SCL" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="SCL"/>
-<wire x1="78.74" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
-<label x="73.66" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="I2C_SDA" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="SDA"/>
-<wire x1="78.74" y1="45.72" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
-<label x="73.66" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
