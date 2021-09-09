@@ -23065,10 +23065,16 @@ disable LEDs</text>
 <wire x1="261.62" y1="0" x2="261.62" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <wire x1="198.12" y1="0" x2="198.12" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <text x="256.54" y="182.88" size="2.54" layer="94" font="vector">Bus Selection: 74LVC4066D</text>
-<text x="320.04" y="116.84" size="1.778" layer="97" font="vector">To use SPI simply 
+<text x="320.04" y="119.38" size="1.778" layer="97" font="vector">To use SPI simply 
 move the shunt to the side labeled
 "SPI".</text>
 <text x="261.62" y="177.8" size="1.778" layer="97" font="vector">SPI or I2C+Serial Selection</text>
+<text x="320.04" y="111.76" size="1.778" layer="97" font="vector">Default is I2C and Serial</text>
+<wire x1="340.36" y1="116.84" x2="370.84" y2="116.84" width="0.2032" layer="97"/>
+<wire x1="370.84" y1="116.84" x2="368.3" y2="119.38" width="0.2032" layer="97"/>
+<wire x1="370.84" y1="116.84" x2="368.3" y2="114.3" width="0.2032" layer="97"/>
+<wire x1="340.36" y1="119.38" x2="340.36" y2="116.84" width="0.2032" layer="97"/>
+<wire x1="340.36" y1="116.84" x2="340.36" y2="114.3" width="0.2032" layer="97"/>
 </plain>
 <instances>
 <instance part="GND3" gate="1" x="45.72" y="190.5" smashed="yes">
