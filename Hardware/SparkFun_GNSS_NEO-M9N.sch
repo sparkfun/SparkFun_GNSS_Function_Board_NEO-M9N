@@ -1224,6 +1224,71 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.6985" y="-0.127"/>
 </polygon>
 </package>
+<package name="SMT-JUMPER_2_NO_NO-SILK" urn="urn:adsk.eagle:footprint:39252/1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_2_NO_NO-SILK_ROUND" urn="urn:adsk.eagle:footprint:39253/1">
+<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
+<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.00508125" layer="1">
+<vertex x="0.111125" y="-1.42875" curve="85"/>
+<vertex x="1.381125" y="0" curve="85"/>
+<vertex x="0.111125" y="1.42875"/>
+</polygon>
+<polygon width="0.00508125" layer="1">
+<vertex x="-0.111125" y="1.42875"/>
+<vertex x="-0.111125" y="-1.42875" curve="-85"/>
+<vertex x="-1.381125" y="0" curve="-85"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="0" y="1.42875" curve="-90"/>
+<vertex x="1.42875" y="0" curve="-90"/>
+<vertex x="0" y="-1.42875" curve="-90"/>
+<vertex x="-1.42875" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_2_NO_SILK_ROUND" urn="urn:adsk.eagle:footprint:39255/1">
+<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
+<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.00508125" layer="1">
+<vertex x="0.111125" y="-1.42875" curve="85"/>
+<vertex x="1.381125" y="0" curve="85"/>
+<vertex x="0.111125" y="1.42875"/>
+</polygon>
+<polygon width="0.00508125" layer="1">
+<vertex x="-0.111125" y="1.42875"/>
+<vertex x="-0.111125" y="-1.42875" curve="-85"/>
+<vertex x="-1.381125" y="0" curve="-85"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="0" y="1.42875" curve="-90"/>
+<vertex x="1.42875" y="0" curve="-90"/>
+<vertex x="0" y="-1.42875" curve="-90"/>
+<vertex x="-1.42875" y="0" curve="-90"/>
+</polygon>
+<circle x="0" y="0" radius="1.74625" width="0.2032" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:package:39289/1" locally_modified="yes" type="box">
@@ -1244,6 +1309,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:package:39286/1" type="box">
 <packageinstances>
 <packageinstance name="SMT-JUMPER_2_NC_TRACE_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NO_NO-SILK" urn="urn:adsk.eagle:package:39277/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NO_NO-SILK_ROUND" urn="urn:adsk.eagle:package:39278/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_NO-SILK_ROUND"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NO_SILK_ROUND" urn="urn:adsk.eagle:package:39280/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_SILK_ROUND"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1273,6 +1358,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="SMT-JUMPER_2_NO">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -1353,6 +1448,68 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:39281/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-SMT_2_NO" prefix="JP">
+<description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
+&lt;p&gt;This jumper has two pads in close proximity to each other. Apply solder to close the connection.&lt;/p&gt;
+
+&lt;p&gt;Round pads are easier to solder for beginners, but are a lot larger.&lt;/p&gt;
+&lt;p&gt;SparkFun Product that uses the round pads:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12781"&gt;SparkFun EL Sequencer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_2_NO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_2_NO_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39277/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_NO-SILK_ROUND" package="SMT-JUMPER_2_NO_NO-SILK_ROUND">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39278/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="SMT-JUMPER_2_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39279/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK_ROUND" package="SMT-JUMPER_2_NO_SILK_ROUND">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39280/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -23069,6 +23226,9 @@ Supply: 1.65V to 5.5V
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
+<part name="R16" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
+<part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23090,7 +23250,7 @@ disable LEDs</text>
 600mA Output</text>
 <text x="238.76" y="259.08" size="2.54" layer="94" font="vector" align="center">u-Center USB</text>
 <text x="72.644" y="130.048" size="2.54" layer="94" font="vector" align="center">Function Card Edge</text>
-<text x="38.354" y="72.898" size="2.54" layer="94" font="vector" align="center">EEPROM</text>
+<text x="33.02" y="73.66" size="2.54" layer="94" font="vector" align="center">EEPROM</text>
 <text x="350.52" y="259.08" size="2.54" layer="94" font="vector" align="center">Voltage Regulation</text>
 <text x="228.6" y="45.72" size="1.778" layer="97" font="vector">L1 Antenna</text>
 <wire x1="142.24" y1="279.4" x2="142.24" y2="193.04" width="0.2032" layer="97" style="longdash"/>
@@ -23302,8 +23462,8 @@ move the shunt to the side labeled
 <instance part="SUPPLY7" gate="G$1" x="332.74" y="238.76" smashed="yes">
 <attribute name="VALUE" x="332.74" y="241.554" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="51.054" y="103.378" smashed="yes">
-<attribute name="VALUE" x="51.054" y="106.172" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="50.8" y="104.14" smashed="yes">
+<attribute name="VALUE" x="50.8" y="106.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C2" gate="G$1" x="104.14" y="248.92" smashed="yes">
 <attribute name="NAME" x="105.664" y="251.841" size="1.778" layer="95" font="vector"/>
@@ -23323,25 +23483,25 @@ move the shunt to the side labeled
 <instance part="FD3" gate="G$1" x="421.64" y="25.4" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="424.18" y="25.4" smashed="yes"/>
 <instance part="LOGO1" gate="G$1" x="395.732" y="24.892" smashed="yes"/>
-<instance part="J1" gate="J1" x="71.374" y="72.898" smashed="yes">
-<attribute name="NAME" x="56.134" y="101.346" size="1.778" layer="95"/>
-<attribute name="VALUE" x="56.134" y="37.338" size="1.778" layer="96"/>
+<instance part="J1" gate="J1" x="71.12" y="73.66" smashed="yes">
+<attribute name="NAME" x="55.88" y="102.108" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="111.76" y="190.5" smashed="yes">
 <attribute name="VALUE" x="111.76" y="190.246" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND6" gate="1" x="51.054" y="37.338" smashed="yes">
-<attribute name="VALUE" x="48.514" y="34.798" size="1.778" layer="96" font="vector"/>
+<instance part="GND6" gate="1" x="45.72" y="38.1" smashed="yes">
+<attribute name="VALUE" x="43.18" y="35.56" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U3" gate="G$1" x="38.354" y="55.118" smashed="yes" rot="MR0">
-<attribute name="NAME" x="30.988" y="63.246" size="1.778" layer="95"/>
-<attribute name="VALUE" x="30.734" y="47.498" size="1.778" layer="96"/>
+<instance part="U3" gate="G$1" x="33.02" y="55.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="25.654" y="64.008" size="1.778" layer="95"/>
+<attribute name="VALUE" x="25.4" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="25.654" y="62.738" smashed="yes">
-<attribute name="VALUE" x="25.654" y="65.532" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="20.32" y="63.5" smashed="yes">
+<attribute name="VALUE" x="20.32" y="66.294" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND9" gate="1" x="25.654" y="47.498" smashed="yes">
-<attribute name="VALUE" x="25.654" y="47.244" size="1.778" layer="96" align="top-center"/>
+<instance part="GND9" gate="1" x="15.24" y="27.94" smashed="yes">
+<attribute name="VALUE" x="15.24" y="27.686" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="226.06" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="224.282" y="32.004" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -23440,6 +23600,16 @@ move the shunt to the side labeled
 <attribute name="DESIGNER" x="353.314" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
+<instance part="R16" gate="G$1" x="15.24" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.716" y="71.12" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="16.764" y="71.12" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="JP1" gate="G$1" x="15.24" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.7" y="35.56" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="SUPPLY22" gate="G$1" x="15.24" y="78.74" smashed="yes">
+<attribute name="VALUE" x="15.24" y="81.534" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23497,9 +23667,9 @@ move the shunt to the side labeled
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC"/>
-<wire x1="28.194" y1="60.198" x2="25.654" y2="60.198" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<wire x1="25.654" y1="60.198" x2="25.654" y2="62.738" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="60.96" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G2" pin="P$V+"/>
@@ -23532,6 +23702,11 @@ move the shunt to the side labeled
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="287.782" y1="160.274" x2="287.782" y2="162.814" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="76.2" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="SUPPLY22" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -23610,19 +23785,13 @@ move the shunt to the side labeled
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="GND"/>
-<wire x1="53.594" y1="42.418" x2="51.054" y2="42.418" width="0.1524" layer="91"/>
-<wire x1="51.054" y1="42.418" x2="51.054" y2="39.878" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="43.18" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="48.514" y1="52.578" x2="51.054" y2="52.578" width="0.1524" layer="91"/>
-<wire x1="51.054" y1="52.578" x2="51.054" y2="42.418" width="0.1524" layer="91"/>
-<junction x="51.054" y="42.418"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="WP"/>
-<wire x1="28.194" y1="57.658" x2="25.654" y2="57.658" width="0.1524" layer="91"/>
-<wire x1="25.654" y1="57.658" x2="25.654" y2="50.038" width="0.1524" layer="91"/>
-<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="43.18" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="53.34" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<junction x="45.72" y="43.18"/>
 </segment>
 <segment>
 <pinref part="R3" gate="R1" pin="1"/>
@@ -23677,6 +23846,11 @@ move the shunt to the side labeled
 <wire x1="287.782" y1="152.654" x2="287.782" y2="150.114" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="30.48" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SCL/SCK" class="0">
 <segment>
@@ -23719,8 +23893,8 @@ move the shunt to the side labeled
 <pinref part="U1" gate="G$1" pin="!RST"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="55.118" x2="91.694" y2="55.118" width="0.1524" layer="91"/>
-<label x="91.694" y="55.118" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<label x="91.44" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="G2/PWM"/>
 </segment>
 </net>
@@ -23732,8 +23906,8 @@ move the shunt to the side labeled
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="G3"/>
-<wire x1="89.154" y1="52.578" x2="91.694" y2="52.578" width="0.1524" layer="91"/>
-<label x="91.694" y="52.578" size="1.27" layer="95" xref="yes"/>
+<wire x1="88.9" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
+<label x="91.44" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PPS" class="0">
@@ -23748,8 +23922,8 @@ move the shunt to the side labeled
 <pinref part="PPS" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="60.198" x2="91.694" y2="60.198" width="0.1524" layer="91"/>
-<label x="91.694" y="60.198" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<label x="91.44" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="G0/!INT!"/>
 </segment>
 </net>
@@ -24039,8 +24213,8 @@ move the shunt to the side labeled
 <label x="322.58" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="53.594" y1="88.138" x2="51.054" y2="88.138" width="0.1524" layer="91"/>
-<label x="51.054" y="88.138" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="53.34" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
+<label x="50.8" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J1" gate="J1" pin="PWR_EN"/>
 </segment>
 </net>
@@ -24061,8 +24235,8 @@ move the shunt to the side labeled
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<wire x1="53.594" y1="95.758" x2="51.054" y2="95.758" width="0.1524" layer="91"/>
-<wire x1="51.054" y1="95.758" x2="51.054" y2="103.378" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="96.52" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 <pinref part="J1" gate="J1" pin="VCC"/>
 </segment>
@@ -24070,21 +24244,21 @@ move the shunt to the side labeled
 <net name="A0" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A0"/>
-<wire x1="48.514" y1="60.198" x2="53.594" y2="60.198" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="EEPROM_A0"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A2"/>
-<wire x1="48.514" y1="55.118" x2="53.594" y2="55.118" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="EEPROM_A2"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A1"/>
-<wire x1="48.514" y1="57.658" x2="53.594" y2="57.658" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="EEPROM_A1"/>
 </segment>
 </net>
@@ -24146,14 +24320,14 @@ move the shunt to the side labeled
 <label x="248.92" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="83.058" x2="91.694" y2="83.058" width="0.1524" layer="91"/>
-<label x="91.694" y="83.058" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="83.82" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
+<label x="91.44" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="I2C_SDA"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SDA"/>
-<wire x1="28.194" y1="52.578" x2="23.114" y2="52.578" width="0.1524" layer="91"/>
-<label x="23.114" y="52.578" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="22.86" y1="53.34" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
+<label x="12.7" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -24169,8 +24343,8 @@ move the shunt to the side labeled
 <label x="355.6" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="98.298" x2="91.694" y2="98.298" width="0.1524" layer="91"/>
-<label x="91.694" y="98.298" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
+<label x="91.44" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="SPI_SCK"/>
 </segment>
 </net>
@@ -24181,8 +24355,8 @@ move the shunt to the side labeled
 <label x="248.92" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="75.438" x2="91.694" y2="75.438" width="0.1524" layer="91"/>
-<label x="91.694" y="75.438" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
+<label x="91.44" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="TX"/>
 </segment>
 </net>
@@ -24193,8 +24367,8 @@ move the shunt to the side labeled
 <label x="248.92" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="77.978" x2="91.694" y2="77.978" width="0.1524" layer="91"/>
-<label x="91.694" y="77.978" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
+<label x="91.44" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="RX"/>
 </segment>
 </net>
@@ -24205,8 +24379,8 @@ move the shunt to the side labeled
 <label x="355.6" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="57.658" x2="91.694" y2="57.658" width="0.1524" layer="91"/>
-<label x="91.694" y="57.658" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<label x="91.44" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="G1/!CS!"/>
 </segment>
 </net>
@@ -24217,14 +24391,14 @@ move the shunt to the side labeled
 <label x="248.92" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="85.598" x2="91.694" y2="85.598" width="0.1524" layer="91"/>
-<label x="91.694" y="85.598" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
+<label x="91.44" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="I2C_SCL"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SCL"/>
-<wire x1="28.194" y1="55.118" x2="23.114" y2="55.118" width="0.1524" layer="91"/>
-<label x="23.114" y="55.118" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="22.86" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
+<label x="12.7" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -24240,8 +24414,8 @@ move the shunt to the side labeled
 <label x="355.6" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="95.758" x2="91.694" y2="95.758" width="0.1524" layer="91"/>
-<label x="91.694" y="95.758" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
+<label x="91.44" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="SPI_SDO"/>
 </segment>
 </net>
@@ -24252,8 +24426,8 @@ move the shunt to the side labeled
 <label x="355.6" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="89.154" y1="93.218" x2="91.694" y2="93.218" width="0.1524" layer="91"/>
-<label x="91.694" y="93.218" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="88.9" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
+<label x="91.44" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="SPI_SDI"/>
 </segment>
 </net>
@@ -24288,6 +24462,26 @@ move the shunt to the side labeled
 <wire x1="386.08" y1="119.38" x2="383.54" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="383.54" y1="119.38" x2="383.54" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="WP" class="0">
+<segment>
+<pinref part="J1" gate="J1" pin="EEPROM_WP"/>
+<wire x1="50.546" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
+<label x="50.546" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="WP"/>
+<wire x1="22.86" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="58.42" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="60.96" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="43.18" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
+<junction x="15.24" y="58.42"/>
+<label x="12.7" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="12.7" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<junction x="15.24" y="60.96"/>
 </segment>
 </net>
 </nets>
