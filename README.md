@@ -24,7 +24,7 @@ Documentation
 Product Versions
 ----------------
 
-* [GPS-18378](https://www.sparkfun.com/products/18378)- Initial release
+* [GPS-18378](https://www.sparkfun.com/products/18378) - Initial release
 
 
 Version History
