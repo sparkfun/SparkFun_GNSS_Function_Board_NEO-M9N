@@ -23229,6 +23229,9 @@ Supply: 1.65V to 5.5V
 <part name="R16" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="WP" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23250,7 +23253,7 @@ disable LEDs</text>
 600mA Output</text>
 <text x="213.36" y="271.78" size="2.54" layer="94" font="vector" align="center">u-Center USB</text>
 <text x="70.104" y="135.128" size="2.54" layer="94" font="vector" align="center">Function Card Edge</text>
-<text x="33.02" y="73.66" size="2.54" layer="94" font="vector" align="center">EEPROM</text>
+<text x="60.96" y="76.2" size="2.54" layer="94" font="vector" align="center">EEPROM</text>
 <text x="363.22" y="271.78" size="2.54" layer="94" font="vector" align="center">Voltage Regulation: AP2112K</text>
 <text x="226.06" y="60.96" size="1.778" layer="97" font="vector">L1 Antenna</text>
 <wire x1="142.24" y1="279.4" x2="142.24" y2="198.12" width="0.2032" layer="97" style="longdash"/>
@@ -23279,7 +23282,7 @@ to the side labeled "SPI".</text>
 <wire x1="292.1" y1="198.12" x2="431.8" y2="198.12" width="0.2032" layer="97" style="longdash"/>
 <wire x1="292.1" y1="279.4" x2="292.1" y2="198.12" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="35.56" x2="330.2" y2="93.98" width="0.2032" layer="97" style="longdash"/>
-<text x="17.78" y="33.02" size="1.27" layer="97" font="vector">Close Jumper to
+<text x="45.72" y="35.56" size="1.27" layer="97" font="vector">Close Jumper to
 disable Write Protect.</text>
 </plain>
 <instances>
@@ -23468,8 +23471,8 @@ disable Write Protect.</text>
 <instance part="SUPPLY7" gate="G$1" x="350.52" y="238.76" smashed="yes">
 <attribute name="VALUE" x="350.52" y="241.554" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="50.8" y="104.14" smashed="yes">
-<attribute name="VALUE" x="50.8" y="106.934" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="83.82" y="106.68" smashed="yes">
+<attribute name="VALUE" x="83.82" y="109.474" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C2" gate="G$1" x="10.16" y="231.14" smashed="yes">
 <attribute name="NAME" x="11.684" y="234.061" size="1.778" layer="95" font="vector"/>
@@ -23489,29 +23492,29 @@ disable Write Protect.</text>
 <instance part="FD3" gate="G$1" x="421.64" y="25.4" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="424.18" y="25.4" smashed="yes"/>
 <instance part="LOGO1" gate="G$1" x="390.652" y="29.972" smashed="yes"/>
-<instance part="J1" gate="J1" x="71.12" y="73.66" smashed="yes">
-<attribute name="NAME" x="55.88" y="102.108" size="1.778" layer="95"/>
-<attribute name="VALUE" x="55.88" y="38.1" size="1.778" layer="96"/>
+<instance part="J1" gate="J1" x="104.14" y="76.2" smashed="yes">
+<attribute name="NAME" x="88.9" y="104.648" size="1.778" layer="95"/>
+<attribute name="VALUE" x="88.9" y="40.64" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="106.68" y="187.96" smashed="yes">
 <attribute name="VALUE" x="106.68" y="187.706" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND6" gate="1" x="45.72" y="38.1" smashed="yes">
-<attribute name="VALUE" x="43.18" y="35.56" size="1.778" layer="96" font="vector"/>
+<instance part="GND6" gate="1" x="73.66" y="40.64" smashed="yes">
+<attribute name="VALUE" x="71.12" y="38.1" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U3" gate="G$1" x="33.02" y="55.88" smashed="yes" rot="MR0">
-<attribute name="NAME" x="25.654" y="64.008" size="1.778" layer="95"/>
-<attribute name="VALUE" x="25.4" y="48.26" size="1.778" layer="96"/>
+<instance part="U3" gate="G$1" x="60.96" y="58.42" smashed="yes" rot="MR0">
+<attribute name="NAME" x="53.594" y="66.548" size="1.778" layer="95"/>
+<attribute name="VALUE" x="53.34" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="20.32" y="63.5" smashed="yes">
-<attribute name="VALUE" x="20.32" y="66.294" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="48.26" y="66.04" smashed="yes">
+<attribute name="VALUE" x="48.26" y="68.834" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND9" gate="1" x="15.24" y="27.94" smashed="yes">
-<attribute name="VALUE" x="15.24" y="27.686" size="1.778" layer="96" align="top-center"/>
+<instance part="GND9" gate="1" x="43.18" y="30.48" smashed="yes">
+<attribute name="VALUE" x="43.18" y="30.226" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="223.52" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="221.742" y="47.244" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="223.012" y="42.926" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="NAME" x="219.456" y="49.022" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="227.33" y="49.022" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
 <instance part="J2" gate="G$1" x="96.52" y="193.04" smashed="yes">
 <attribute name="VALUE" x="93.98" y="188.214" size="1.778" layer="96" font="vector"/>
@@ -23606,15 +23609,25 @@ disable Write Protect.</text>
 <attribute name="DESIGNER" x="353.314" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="R16" gate="G$1" x="15.24" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.716" y="71.12" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="16.764" y="71.12" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R16" gate="G$1" x="43.18" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.656" y="73.66" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="44.704" y="73.66" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="WP" gate="G$1" x="15.24" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.844" y="42.418" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="WP" gate="G$1" x="43.18" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.784" y="44.958" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="SUPPLY22" gate="G$1" x="15.24" y="78.74" smashed="yes">
-<attribute name="VALUE" x="15.24" y="81.534" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY22" gate="G$1" x="43.18" y="81.28" smashed="yes">
+<attribute name="VALUE" x="43.18" y="84.074" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C8" gate="G$1" x="22.86" y="53.34" smashed="yes">
+<attribute name="NAME" x="24.384" y="56.261" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="24.384" y="51.181" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND20" gate="1" x="22.86" y="45.72" smashed="yes">
+<attribute name="VALUE" x="20.32" y="43.18" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="SUPPLY23" gate="G$1" x="22.86" y="60.96" smashed="yes">
+<attribute name="VALUE" x="22.86" y="63.754" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -23673,9 +23686,9 @@ disable Write Protect.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC"/>
-<wire x1="22.86" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<wire x1="20.32" y1="60.96" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="63.5" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G2" pin="P$V+"/>
@@ -23711,8 +23724,13 @@ disable Write Protect.</text>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="76.2" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="78.74" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="58.42" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -23791,13 +23809,13 @@ disable Write Protect.</text>
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="GND"/>
-<wire x1="53.34" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="43.18" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="45.72" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="45.72" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="43.18" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="53.34" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
-<junction x="45.72" y="43.18"/>
+<wire x1="71.12" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="55.88" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
+<junction x="73.66" y="45.72"/>
 </segment>
 <segment>
 <pinref part="R3" gate="R1" pin="1"/>
@@ -23855,7 +23873,12 @@ disable Write Protect.</text>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="WP" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="30.48" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="33.02" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SCL/SCK" class="0">
@@ -23899,8 +23922,8 @@ disable Write Protect.</text>
 <pinref part="U1" gate="G$1" pin="!RST"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-<label x="91.44" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
+<label x="124.46" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="G2/PWM"/>
 </segment>
 </net>
@@ -23912,8 +23935,8 @@ disable Write Protect.</text>
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="G3"/>
-<wire x1="88.9" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
-<label x="91.44" y="53.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+<label x="124.46" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PPS" class="0">
@@ -23928,8 +23951,8 @@ disable Write Protect.</text>
 <pinref part="PPS" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
-<label x="91.44" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<label x="124.46" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="G0/!INT!"/>
 </segment>
 </net>
@@ -24219,8 +24242,8 @@ disable Write Protect.</text>
 <label x="340.36" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="53.34" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
-<label x="50.8" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="86.36" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
+<label x="83.82" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J1" gate="J1" pin="PWR_EN"/>
 </segment>
 </net>
@@ -24241,8 +24264,8 @@ disable Write Protect.</text>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<wire x1="53.34" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="96.52" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="99.06" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 <pinref part="J1" gate="J1" pin="VCC"/>
 </segment>
@@ -24250,21 +24273,21 @@ disable Write Protect.</text>
 <net name="A0" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A0"/>
-<wire x1="43.18" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="EEPROM_A0"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A2"/>
-<wire x1="43.18" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="EEPROM_A2"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A1"/>
-<wire x1="43.18" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="EEPROM_A1"/>
 </segment>
 </net>
@@ -24326,14 +24349,14 @@ disable Write Protect.</text>
 <label x="226.06" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="83.82" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
-<label x="91.44" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<label x="124.46" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="I2C_SDA"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SDA"/>
-<wire x1="22.86" y1="53.34" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
-<label x="12.7" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="50.8" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
+<label x="40.64" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -24349,8 +24372,8 @@ disable Write Protect.</text>
 <label x="406.4" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
-<label x="91.44" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<label x="124.46" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="SPI_SCK"/>
 </segment>
 </net>
@@ -24361,8 +24384,8 @@ disable Write Protect.</text>
 <label x="226.06" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
-<label x="91.44" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<label x="124.46" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="TX"/>
 </segment>
 </net>
@@ -24373,8 +24396,8 @@ disable Write Protect.</text>
 <label x="226.06" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<label x="91.44" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
+<label x="124.46" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="RX"/>
 </segment>
 </net>
@@ -24385,8 +24408,8 @@ disable Write Protect.</text>
 <label x="406.4" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
-<label x="91.44" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
+<label x="124.46" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="G1/!CS!"/>
 </segment>
 </net>
@@ -24397,14 +24420,14 @@ disable Write Protect.</text>
 <label x="226.06" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
-<label x="91.44" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
+<label x="124.46" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="I2C_SCL"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SCL"/>
-<wire x1="22.86" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
-<label x="12.7" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="50.8" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
+<label x="40.64" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -24420,8 +24443,8 @@ disable Write Protect.</text>
 <label x="406.4" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
-<label x="91.44" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
+<label x="124.46" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="SPI_SDO"/>
 </segment>
 </net>
@@ -24432,8 +24455,8 @@ disable Write Protect.</text>
 <label x="406.4" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
-<label x="91.44" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="121.92" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
+<label x="124.46" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="SPI_SDI"/>
 </segment>
 </net>
@@ -24473,21 +24496,21 @@ disable Write Protect.</text>
 <net name="WP" class="0">
 <segment>
 <pinref part="J1" gate="J1" pin="EEPROM_WP"/>
-<wire x1="50.546" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
-<label x="50.546" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="83.566" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
+<label x="83.566" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="WP"/>
-<wire x1="22.86" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="58.42" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="60.96" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="WP" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="60.96" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="43.18" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
-<junction x="15.24" y="58.42"/>
-<label x="12.7" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="12.7" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
-<junction x="15.24" y="60.96"/>
+<wire x1="43.18" y1="63.5" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="45.72" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
+<junction x="43.18" y="60.96"/>
+<label x="40.64" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
+<junction x="43.18" y="63.5"/>
 </segment>
 </net>
 </nets>
