@@ -331,7 +331,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="0603">
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -1344,8 +1344,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="2.032" x2="0" y2="-1.778" width="0.254" layer="94"/>
-<text x="2.54" y="0.381" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="2.54" y="-0.381" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="6.096" y="1.524" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="6.858" y="-1.524" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
 <pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
@@ -1358,8 +1358,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="0" y="3.048" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.048" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -1368,8 +1368,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -20049,6 +20049,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.286" y="2.159" size="0.6096" layer="25" ratio="20">&gt;NAME</text>
 <text x="-2.413" y="-2.794" size="0.6096" layer="27" ratio="20">&gt;VALUE</text>
 </package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
+</package>
 <package name="0402">
 <description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
@@ -20233,18 +20249,29 @@ Provides ESD protection</description>
 <description>&lt;h3&gt;ESD protection diode&lt;/h3&gt;
 &lt;p&gt;PESD is used to protect a signal line from ESD.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="PESD0402" x="0" y="0"/>
+<gate name="D1" symbol="PESD0402" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0402">
+<device name="-0402" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="D1" pin="1" pad="1"/>
+<connect gate="D1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART" value="PESD0402-140CT-ND" constant="no"/>
 <attribute name="MOUSE_PART" value="650-PESD0402-140" constant="no"/>
+<attribute name="PROD_ID" value="DIO-15359" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T" package="0402-TIGHT">
+<connects>
+<connect gate="D1" pin="1" pad="1"/>
+<connect gate="D1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
 <attribute name="PROD_ID" value="DIO-15359" constant="no"/>
 </technology>
 </technologies>
@@ -21083,7 +21110,9 @@ This is a footprint for an edge mount SMD SMA connector. Works pretty well with 
 <wire x1="-2.667" y1="4.7554" x2="-3.175" y2="5.0094" width="0.0762" layer="51"/>
 <wire x1="-3.175" y1="5.0094" x2="-2.667" y2="5.2634" width="0.0762" layer="51"/>
 <wire x1="-2.667" y1="5.2634" x2="-2.667" y2="6" width="0.0762" layer="51"/>
-<wire x1="-2.667" y1="6" x2="2.667" y2="6" width="0.0762" layer="51"/>
+<wire x1="-2.667" y1="6" x2="-0.4" y2="6" width="0.0762" layer="51"/>
+<wire x1="-0.4" y1="6" x2="0.4" y2="6" width="0.0762" layer="51"/>
+<wire x1="0.4" y1="6" x2="2.667" y2="6" width="0.0762" layer="51"/>
 <wire x1="2.667" y1="6" x2="2.667" y2="5.2634" width="0.0762" layer="51"/>
 <wire x1="2.667" y1="5.2634" x2="3.175" y2="5.0094" width="0.0762" layer="51"/>
 <wire x1="3.175" y1="5.0094" x2="2.667" y2="4.7554" width="0.0762" layer="51"/>
@@ -21226,6 +21255,8 @@ Power Layers</text>
 <wire x1="-3.81" y1="0" x2="-1.27" y2="-2.54" width="0.1524" layer="48"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-3.81" width="0.1524" layer="48"/>
 <wire x1="2.54" y1="-3.81" x2="5.08" y2="-6.35" width="0.1524" layer="48"/>
+<wire x1="-0.4" y1="6" x2="0" y2="6.7" width="0.0762" layer="51"/>
+<wire x1="0" y1="6.7" x2="0.4" y2="6" width="0.0762" layer="51"/>
 </package>
 <package name="SMA-EDGE">
 <description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;&lt;p&gt;
@@ -21291,6 +21322,8 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="-3.175" y1="5.842" x2="3.175" y2="5.842" width="0.0254" layer="51"/>
 <wire x1="-2.667" y1="7.112" x2="3.175" y2="7.366" width="0.0254" layer="51"/>
 <wire x1="2.667" y1="6.604" x2="3.175" y2="6.35" width="0.0762" layer="51"/>
+<wire x1="-0.4" y1="9.906" x2="0" y2="10.58" width="0.0762" layer="51"/>
+<wire x1="0" y1="10.58" x2="0.4" y2="9.906" width="0.0762" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -22641,13 +22674,13 @@ Out</text>
 <pin name="CAN-TX" x="-17.78" y="-2.54" length="short"/>
 <pin name="I2C_SCL" x="17.78" y="12.7" length="short" rot="R180"/>
 <pin name="I2C_SDA" x="17.78" y="10.16" length="short" rot="R180"/>
-<pin name="G0/!INT!" x="17.78" y="-12.7" length="short" rot="R180"/>
-<pin name="G2/PWM" x="17.78" y="-17.78" length="short" rot="R180"/>
-<pin name="G4" x="17.78" y="-22.86" length="short" rot="R180"/>
-<pin name="G6" x="17.78" y="-27.94" length="short" rot="R180"/>
-<pin name="G1/!CS!" x="17.78" y="-15.24" length="short" rot="R180"/>
-<pin name="G3" x="17.78" y="-20.32" length="short" rot="R180"/>
-<pin name="G5" x="17.78" y="-25.4" length="short" rot="R180"/>
+<pin name="F0/!INT!" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="F2/PWM" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="F4" x="17.78" y="-22.86" length="short" rot="R180"/>
+<pin name="F6" x="17.78" y="-27.94" length="short" rot="R180"/>
+<pin name="F1/!CS!" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="F3" x="17.78" y="-20.32" length="short" rot="R180"/>
+<pin name="F5" x="17.78" y="-25.4" length="short" rot="R180"/>
 <text x="-15.24" y="28.448" size="1.778" layer="95">&gt;Name</text>
 <text x="-15.24" y="-35.56" size="1.778" layer="96">&gt;Value</text>
 <pin name="VCC" x="-17.78" y="22.86" length="short"/>
@@ -22661,7 +22694,7 @@ Out</text>
 <pin name="EEPROM_A0" x="-17.78" y="-12.7" length="short"/>
 <pin name="EEPROM_A1" x="-17.78" y="-15.24" length="short"/>
 <pin name="EEPROM_A2" x="-17.78" y="-17.78" length="short"/>
-<pin name="G7" x="17.78" y="-30.48" length="short" rot="R180"/>
+<pin name="F7" x="17.78" y="-30.48" length="short" rot="R180"/>
 <pin name="EEPROM_WP" x="-17.78" y="-20.32" length="short"/>
 </symbol>
 </symbols>
@@ -22685,14 +22718,14 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
 <connect gate="J1" pin="EEPROM_WP" pad="40"/>
-<connect gate="J1" pin="G0/!INT!" pad="47"/>
-<connect gate="J1" pin="G1/!CS!" pad="49"/>
-<connect gate="J1" pin="G2/PWM" pad="51"/>
-<connect gate="J1" pin="G3" pad="53"/>
-<connect gate="J1" pin="G4" pad="55"/>
-<connect gate="J1" pin="G5" pad="57"/>
-<connect gate="J1" pin="G6" pad="59"/>
-<connect gate="J1" pin="G7" pad="61"/>
+<connect gate="J1" pin="F0/!INT!" pad="47"/>
+<connect gate="J1" pin="F1/!CS!" pad="49"/>
+<connect gate="J1" pin="F2/PWM" pad="51"/>
+<connect gate="J1" pin="F3" pad="53"/>
+<connect gate="J1" pin="F4" pad="55"/>
+<connect gate="J1" pin="F5" pad="57"/>
+<connect gate="J1" pin="F6" pad="59"/>
+<connect gate="J1" pin="F7" pad="61"/>
 <connect gate="J1" pin="GND" pad="1 33 39 45 75 GND1 GND2 GND3 GND4 GND5 GND6"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
@@ -22724,14 +22757,14 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
 <connect gate="J1" pin="EEPROM_WP" pad="40"/>
-<connect gate="J1" pin="G0/!INT!" pad="47"/>
-<connect gate="J1" pin="G1/!CS!" pad="49"/>
-<connect gate="J1" pin="G2/PWM" pad="51"/>
-<connect gate="J1" pin="G3" pad="53"/>
-<connect gate="J1" pin="G4" pad="55"/>
-<connect gate="J1" pin="G5" pad="57"/>
-<connect gate="J1" pin="G6" pad="59"/>
-<connect gate="J1" pin="G7" pad="61"/>
+<connect gate="J1" pin="F0/!INT!" pad="47"/>
+<connect gate="J1" pin="F1/!CS!" pad="49"/>
+<connect gate="J1" pin="F2/PWM" pad="51"/>
+<connect gate="J1" pin="F3" pad="53"/>
+<connect gate="J1" pin="F4" pad="55"/>
+<connect gate="J1" pin="F5" pad="57"/>
+<connect gate="J1" pin="F6" pad="59"/>
+<connect gate="J1" pin="F7" pad="61"/>
 <connect gate="J1" pin="GND" pad="1 33 39 45 75"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
@@ -22765,14 +22798,14 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
 <connect gate="J1" pin="EEPROM_WP" pad="40"/>
-<connect gate="J1" pin="G0/!INT!" pad="47"/>
-<connect gate="J1" pin="G1/!CS!" pad="49"/>
-<connect gate="J1" pin="G2/PWM" pad="51"/>
-<connect gate="J1" pin="G3" pad="53"/>
-<connect gate="J1" pin="G4" pad="55"/>
-<connect gate="J1" pin="G5" pad="57"/>
-<connect gate="J1" pin="G6" pad="59"/>
-<connect gate="J1" pin="G7" pad="61"/>
+<connect gate="J1" pin="F0/!INT!" pad="47"/>
+<connect gate="J1" pin="F1/!CS!" pad="49"/>
+<connect gate="J1" pin="F2/PWM" pad="51"/>
+<connect gate="J1" pin="F3" pad="53"/>
+<connect gate="J1" pin="F4" pad="55"/>
+<connect gate="J1" pin="F5" pad="57"/>
+<connect gate="J1" pin="F6" pad="59"/>
+<connect gate="J1" pin="F7" pad="61"/>
 <connect gate="J1" pin="GND" pad="1 33 39 45 75 GND GND1 GND2 GND3 GND4 GND5"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
@@ -22804,14 +22837,14 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
 <connect gate="J1" pin="EEPROM_WP" pad="40"/>
-<connect gate="J1" pin="G0/!INT!" pad="47"/>
-<connect gate="J1" pin="G1/!CS!" pad="49"/>
-<connect gate="J1" pin="G2/PWM" pad="51"/>
-<connect gate="J1" pin="G3" pad="53"/>
-<connect gate="J1" pin="G4" pad="55"/>
-<connect gate="J1" pin="G5" pad="57"/>
-<connect gate="J1" pin="G6" pad="59"/>
-<connect gate="J1" pin="G7" pad="61"/>
+<connect gate="J1" pin="F0/!INT!" pad="47"/>
+<connect gate="J1" pin="F1/!CS!" pad="49"/>
+<connect gate="J1" pin="F2/PWM" pad="51"/>
+<connect gate="J1" pin="F3" pad="53"/>
+<connect gate="J1" pin="F4" pad="55"/>
+<connect gate="J1" pin="F5" pad="57"/>
+<connect gate="J1" pin="F6" pad="59"/>
+<connect gate="J1" pin="F7" pad="61"/>
 <connect gate="J1" pin="GND" pad="1 33 39 45 75"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
@@ -22843,14 +22876,14 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
 <connect gate="J1" pin="EEPROM_WP" pad="40"/>
-<connect gate="J1" pin="G0/!INT!" pad="47"/>
-<connect gate="J1" pin="G1/!CS!" pad="49"/>
-<connect gate="J1" pin="G2/PWM" pad="51"/>
-<connect gate="J1" pin="G3" pad="53"/>
-<connect gate="J1" pin="G4" pad="55"/>
-<connect gate="J1" pin="G5" pad="57"/>
-<connect gate="J1" pin="G6" pad="59"/>
-<connect gate="J1" pin="G7" pad="61"/>
+<connect gate="J1" pin="F0/!INT!" pad="47"/>
+<connect gate="J1" pin="F1/!CS!" pad="49"/>
+<connect gate="J1" pin="F2/PWM" pad="51"/>
+<connect gate="J1" pin="F3" pad="53"/>
+<connect gate="J1" pin="F4" pad="55"/>
+<connect gate="J1" pin="F5" pad="57"/>
+<connect gate="J1" pin="F6" pad="59"/>
+<connect gate="J1" pin="F7" pad="61"/>
 <connect gate="J1" pin="GND" pad="1 33 39 45 75"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
@@ -23199,7 +23232,7 @@ Supply: 1.65V to 5.5V
 <part name="U3" library="SparkFun-IC-Memory" deviceset="EEPROM-I2C" device="512K" value="EEPROM"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="PESD0402" device=""/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="PESD0402" device="-0402T"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH" value="SFE_LOGO_NAME_FLAME.2_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
@@ -23512,7 +23545,7 @@ disable Write Protect.</text>
 <instance part="GND9" gate="1" x="43.18" y="30.48" smashed="yes">
 <attribute name="VALUE" x="43.18" y="30.226" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="D1" gate="G$1" x="223.52" y="45.72" smashed="yes" rot="R90">
+<instance part="D1" gate="D1" x="223.52" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="219.456" y="49.022" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="227.33" y="49.022" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
@@ -23785,7 +23818,7 @@ disable Write Protect.</text>
 <pinref part="GND27" gate="1" pin="GND"/>
 <pinref part="E1" gate="G$1" pin="GND"/>
 <wire x1="218.44" y1="55.88" x2="218.44" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="1"/>
+<pinref part="D1" gate="D1" pin="1"/>
 <wire x1="218.44" y1="40.64" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="43.18" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="40.64" x2="218.44" y2="40.64" width="0.1524" layer="91"/>
@@ -23924,7 +23957,7 @@ disable Write Protect.</text>
 <segment>
 <wire x1="121.92" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <label x="124.46" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="J1" pin="G2/PWM"/>
+<pinref part="J1" gate="J1" pin="F2/PWM"/>
 </segment>
 </net>
 <net name="INT" class="0">
@@ -23934,7 +23967,7 @@ disable Write Protect.</text>
 <pinref part="U1" gate="G$1" pin="EXT_INT"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="G3"/>
+<pinref part="J1" gate="J1" pin="F3"/>
 <wire x1="121.92" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
 <label x="124.46" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -23953,7 +23986,7 @@ disable Write Protect.</text>
 <segment>
 <wire x1="121.92" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
 <label x="124.46" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="J1" pin="G0/!INT!"/>
+<pinref part="J1" gate="J1" pin="F0/!INT!"/>
 </segment>
 </net>
 <net name="TXLV" class="0">
@@ -24109,7 +24142,7 @@ disable Write Protect.</text>
 <wire x1="228.6" y1="53.34" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="50.8" x2="228.6" y2="53.34" width="0.1524" layer="91"/>
 <junction x="228.6" y="53.34"/>
-<pinref part="D1" gate="G$1" pin="2"/>
+<pinref part="D1" gate="D1" pin="2"/>
 <wire x1="223.52" y1="50.8" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
 <junction x="223.52" y="53.34"/>
 </segment>
@@ -24410,7 +24443,7 @@ disable Write Protect.</text>
 <segment>
 <wire x1="121.92" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 <label x="124.46" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="J1" pin="G1/!CS!"/>
+<pinref part="J1" gate="J1" pin="F1/!CS!"/>
 </segment>
 </net>
 <net name="SCL" class="0">
