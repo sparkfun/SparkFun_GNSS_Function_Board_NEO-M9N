@@ -21402,6 +21402,17 @@ Why hasn't anyone added the cutout polygons directly to the connector footprint?
 </technology>
 </technologies>
 </device>
+<device name="EDGE_SMA_THIN" package="SMA-EDGE">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND@0 GND@1 GND@2 GND@3"/>
+<connect gate="G$1" pin="SIGNAL" pad="SIG"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-16309" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -23202,7 +23213,7 @@ Supply: 1.65V to 5.5V
 <part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="_2-LAYER_PADS"/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="E1" library="SparkFun-RF" deviceset="ANTENNA-SMA-GROUNDED" device="EDGE_SMA" value="ANTENNA-SMA-GROUNDEDEDGE_SMA"/>
+<part name="E1" library="SparkFun-RF" deviceset="ANTENNA-SMA-GROUNDED" device="EDGE_SMA_THIN" value="ANTENNA-SMA-GROUNDEDEDGE_SMA_THIN"/>
 <part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD-120_OHM" device="-0402" value="120Ω"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="47PF" device="-0402-25V-5%-X7R" value="47pF"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="33OHM" device="-0402-1/10W-1%" value="33"/>

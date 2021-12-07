@@ -15,8 +15,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -33,7 +33,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -196,7 +196,7 @@
 </layers>
 <board>
 <plain>
-<text x="33.02" y="-24.511" size="1.778" layer="51" font="vector">Elias Santistevan</text>
+<text x="29.21" y="-13.081" size="1.778" layer="51" font="vector">Elias Santistevan</text>
 <wire x1="0" y1="9.125" x2="0" y2="15.825" width="0.2032" layer="20"/>
 <wire x1="0" y1="17.025" x2="0" y2="28.975" width="0.2032" layer="20"/>
 <wire x1="0" y1="28.975" x2="3.5" y2="28.975" width="0.2032" layer="20"/>
@@ -7569,8 +7569,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-14122" x="58.7248" y="10.16" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="62.5348" y="10.16" size="0.762" layer="27" rot="R90" align="center"/>
 </element>
-<element name="E1" library="SparkFun-RF" package="SMA-EDGE" value="ANTENNA-SMA-GROUNDEDEDGE_SMA" x="62.7834" y="27.94" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="CONN-08289" x="62.7834" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="E1" library="SparkFun-RF" package="SMA-EDGE" value="ANTENNA-SMA-GROUNDEDEDGE_SMA_THIN" x="62.7834" y="27.94" smashed="yes" rot="R270">
+<attribute name="PROD_ID" value="CONN-16309" x="62.7834" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FB1" library="SparkFun-Coils" package="0402" value="120Ω" x="48.3774" y="27.4064" smashed="yes" rot="R270">
 <attribute name="MFG_PART" value="BLM15HB121SN1D" x="48.3774" y="27.4064" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -7686,9 +7686,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-00810" x="9.144" y="4.699" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="9.706" y="4.699" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="1.27" y="-39.37" smashed="yes">
-<attribute name="DESIGNER" value="" x="1.27" y="-39.37" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="" x="1.27" y="-39.37" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-2.54" y="-12.7" smashed="yes">
+<attribute name="DESIGNER" value="" x="-2.54" y="-12.7" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="" x="-2.54" y="-12.7" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="U$18" library="top" package="#BUS_SELECT#509" value="" x="24.892" y="37.084" smashed="yes"/>
 <element name="U$19" library="top" package="#DSEL#40313522" value="" x="22.352" y="32.385" smashed="yes" rot="R90"/>
@@ -8916,24 +8916,18 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="4,16,a0bd4c300954c238"/>
 <approved hash="23,1,88630a150def93f1"/>
 <approved hash="5,1,1d509612b9239989"/>
-<approved hash="4,1,1dd28dbf6a310b10"/>
-<approved hash="4,1,da240be691aece01"/>
-<approved hash="4,1,7d7ba98af5579c41"/>
-<approved hash="4,1,c9f4e20b7ea283fb"/>
-<approved hash="4,1,1c66b1160d2fa97a"/>
-<approved hash="4,1,54212357daa45e90"/>
-<approved hash="19,1,0c6e0f4fbf0fbc2e"/>
-<approved hash="19,1,8ef5896ab9aabe35"/>
-<approved hash="19,1,70f4706eb02eb0b4"/>
-<approved hash="19,1,5c7d58d648164cbd"/>
-<approved hash="19,1,f7d0f4f0b330b010"/>
-<approved hash="19,1,cf90cef136b137d0"/>
 <approved hash="19,16,edc1da2816c39fa0"/>
 <approved hash="19,16,9cbe1a3910daa836"/>
 <approved hash="23,1,6f9d115b13276de1"/>
-<approved hash="4,1,091fac0162c13eef"/>
 <approved hash="19,16,a9c42912a71ea986"/>
 <approved hash="19,16,013882d693e95842"/>
+<approved hash="4,1,111dedf2a26ea489"/>
+<approved hash="4,1,efa9e2ea5c1e5a3d"/>
+<approved hash="4,1,ee2fe20e5a625cb3"/>
+<approved hash="4,1,9f97dece4873c8bb"/>
+<approved hash="4,16,efa9e2ea5c1e5a3d"/>
+<approved hash="4,16,111dedf2a26ea489"/>
+<approved hash="4,16,9f97dece4873c8bb"/>
 </errors>
 </board>
 </drawing>
