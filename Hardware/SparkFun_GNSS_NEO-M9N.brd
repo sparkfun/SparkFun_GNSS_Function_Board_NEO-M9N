@@ -97,10 +97,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -7651,7 +7651,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U$11" library="SparkFun-MicroMod" package="MICROMOD_MI_LOGO_1" value="" x="34.4932" y="30.7848" smashed="yes"/>
 <element name="U$4" library="top" package="#SAFEBOOT#12" value="" x="36.3474" y="36.9316" smashed="yes"/>
-<element name="U$14" library="top" package="L1321542" value="" x="59.1058" y="34.8488" smashed="yes"/>
+<element name="U$14" library="top" package="L1321542" value="" x="63.5508" y="34.8488" smashed="yes"/>
 <element name="U$8" library="SparkFun-IC-Logic" package="SO14" value="74LVC4066D_QUAD_BILATERAL_SWITCH" x="13.843" y="17.399" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.2108" y="13.843" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="PROD_ID" value="IC-13944" x="13.843" y="17.399" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -7931,7 +7931,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="C5" pad="2"/>
 <contactref element="C7" pad="2"/>
 <via x="8.727" y="17.3344" extent="1-16" drill="0.3048"/>
-<via x="8.679" y="7.4094" extent="1-16" drill="0.3048"/>
+<via x="9.314" y="6.9014" extent="1-16" drill="0.3048"/>
 <via x="37.398" y="20.852" extent="1-16" drill="0.3048"/>
 <via x="34.468" y="20.892" extent="1-16" drill="0.3048"/>
 <via x="31.318" y="20.992" extent="1-16" drill="0.3048"/>
