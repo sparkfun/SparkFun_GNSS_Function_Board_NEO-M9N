@@ -26411,6 +26411,11 @@ to the side labeled "SPI".</text>
 <wire x1="330.2" y1="35.56" x2="330.2" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <text x="45.72" y="35.56" size="1.27" layer="97" font="vector">Close Jumper to
 disable Write Protect.</text>
+<text x="111.76" y="182.118" size="1.27" layer="97" font="vector">You can reset your 
+module to factory settings
+by setting safeboot low
+while powering up the
+module.</text>
 </plain>
 <instances>
 <instance part="GND3" gate="1" x="40.64" y="187.96" smashed="yes">
@@ -26421,7 +26426,7 @@ disable Write Protect.</text>
 <attribute name="VALUE" x="173.736" y="28.321" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="B1" gate="G$1" x="160.02" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="162.56" y="32.766" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="163.068" y="33.274" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND5" gate="1" x="160.02" y="20.32" smashed="yes">
 <attribute name="VALUE" x="160.02" y="20.066" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -26641,7 +26646,6 @@ disable Write Protect.</text>
 </instance>
 <instance part="D1" gate="D1" x="223.52" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="219.456" y="49.022" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="227.33" y="49.022" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
 <instance part="J2" gate="G$1" x="96.52" y="193.04" smashed="yes">
 <attribute name="VALUE" x="93.98" y="188.214" size="1.778" layer="96" font="vector"/>
@@ -27164,7 +27168,7 @@ disable Write Protect.</text>
 <junction x="106.68" y="195.58"/>
 </segment>
 </net>
-<net name="RXI/SDI" class="0">
+<net name="RXI/PICO" class="0">
 <segment>
 <wire x1="104.14" y1="220.98" x2="106.68" y2="220.98" width="0.1524" layer="91"/>
 <label x="106.68" y="220.98" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -27181,7 +27185,7 @@ disable Write Protect.</text>
 <pinref part="U$15" gate="G$1" pin="4Y"/>
 </segment>
 </net>
-<net name="TXO/SDO" class="0">
+<net name="TXO/POCI" class="0">
 <segment>
 <wire x1="104.14" y1="223.52" x2="106.68" y2="223.52" width="0.1524" layer="91"/>
 <label x="106.68" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -27563,7 +27567,7 @@ disable Write Protect.</text>
 <label x="307.34" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SDO" class="0">
+<net name="POCI" class="0">
 <segment>
 <pinref part="U$15" gate="G$1" pin="3Z"/>
 <wire x1="403.86" y1="124.46" x2="406.4" y2="124.46" width="0.1524" layer="91"/>
@@ -27575,7 +27579,7 @@ disable Write Protect.</text>
 <pinref part="J1" gate="J1" pin="SPI_SDO"/>
 </segment>
 </net>
-<net name="SDI" class="0">
+<net name="PICO" class="0">
 <segment>
 <pinref part="U$15" gate="G$1" pin="4Z"/>
 <wire x1="403.86" y1="119.38" x2="406.4" y2="119.38" width="0.1524" layer="91"/>
