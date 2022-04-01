@@ -1671,20 +1671,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="ML414H_IV01E">
-<description>&lt;h3&gt;SEIKO ML414H-IV01E Reflowable Lithium Battery&lt;/h3&gt;
+<package name="MS421R_IV03E">
+<description>&lt;h3&gt;SEIKO MS421R Reflowable Lithium Battery&lt;/h3&gt;
 
 &lt;p&gt;
 ML414H is a rechargeable, coin type battery with features
 such as Pb-free reflowable (Peak temperature: 260 C) and
 high temperature heat resistance.
 &lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;3V&lt;/li&gt;
-&lt;li&gt;1mAH&lt;/li&gt;
-&lt;li&gt;4.8mm Diamter&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;3.3V&lt;/li&gt;
+&lt;li&gt;1.5mAH&lt;/li&gt;
+&lt;li&gt;4.8mm Diameter&lt;/li&gt;
+&lt;li&gt;10uA Discharge Rater&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Seiko%20Instruments%20PDFs/MS421R_MS621R_DS.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
 <circle x="0" y="0" radius="2.4" width="0.0508" layer="51"/>
 <smd name="-" x="0.6" y="-1.85" dx="4.2" dy="1.7" layer="1" stop="no" cream="no"/>
 <polygon width="0.05" layer="1">
@@ -7424,9 +7427,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-00868" x="3.5306" y="10.2884" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="22.7076" y="12.9554" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="B1" library="SparkFun-Batteries" package="ML414H_IV01E" value="6.8MM_COIN_CELL" x="23.4442" y="3.5814" smashed="yes" rot="R90">
+<element name="B1" library="SparkFun-Batteries" package="MS421R_IV03E" value="6.8MM_COIN_CELL" x="23.4442" y="3.5814" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.174196875" y="1.676396875" size="0.762" layer="25" ratio="15" rot="R90"/>
-<attribute name="PROD_ID" value="BATT-14267" x="23.4442" y="3.5814" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="BAT-16685" x="23.4442" y="3.5814" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0603" value="2.2k" x="22.987" y="28.575" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.225" y="28.575" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -7525,10 +7528,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-14122" x="58.7248" y="10.16" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="62.5348" y="10.16" size="0.762" layer="27" rot="R90" align="center"/>
 </element>
-<element name="E1" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="56.9976" y="27.9962" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="CONN-09193" x="56.9976" y="27.9962" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SF_ID" value="WRL-09144" x="56.9976" y="27.9962" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="U.FL" x="56.9976" y="27.9962" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="E1" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="55.7276" y="27.9962" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="CONN-09193" x="55.7276" y="27.9962" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SF_ID" value="WRL-09144" x="55.7276" y="27.9962" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="U.FL" x="55.7276" y="27.9962" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="FB1" library="SparkFun-Coils" package="0402" value="120Ω" x="48.3774" y="27.4064" smashed="yes" rot="R270">
 <attribute name="MFG_PART" value="BLM15HB121SN1D" x="48.3774" y="27.4064" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -7573,9 +7576,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="60.068" y="1.904" smashed="yes"/>
 <element name="U$1" library="top" package="3V313" value="" x="60.452" y="17.145" smashed="yes" rot="R90"/>
 <element name="U$2" library="top" package="PPS13" value="" x="60.3758" y="20.7772" smashed="yes" rot="R90"/>
-<element name="U$5" library="top" package="U#BLOX11" value="" x="41.8846" y="29.3624" smashed="yes"/>
-<element name="U$6" library="top" package="NEO#M9N12" value="" x="50.7238" y="29.4386" smashed="yes"/>
-<element name="U$7" library="top" package="ANTENNA14" value="" x="58.928" y="30.607" smashed="yes"/>
+<element name="U$5" library="top" package="U#BLOX11" value="" x="41.2496" y="29.3624" smashed="yes"/>
+<element name="U$6" library="top" package="NEO#M9N12" value="" x="49.1998" y="29.4386" smashed="yes"/>
+<element name="U$7" library="top" package="ANTENNA14" value="" x="57.658" y="30.607" smashed="yes"/>
 <element name="U$9" library="top" package="U#CENTER15" value="" x="61.41" y="4.538" smashed="yes"/>
 <element name="U$10" library="top" package="#I2C#18" value="" x="23.912" y="27.424" smashed="yes" rot="MR0"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="86" y="58.5" smashed="yes"/>
@@ -7596,7 +7599,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="42.799" y="4.4196" smashed="yes"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="10.16" y="2.54" smashed="yes" rot="MR0"/>
-<element name="U$3" library="top" package="FUNCTION521" value="" x="44.5262" y="31.115" smashed="yes"/>
+<element name="U$3" library="top" package="FUNCTION521" value="" x="43.7642" y="31.115" smashed="yes"/>
 <element name="R3" library="SparkFun-Resistors" package="0603" value="5.1k" x="55.372" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="56.134" y="14.478" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-12083" x="55.372" y="14.478" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -7608,7 +7611,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="56.261" y="6.477" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U$11" library="SparkFun-MicroMod" package="MICROMOD_MI_LOGO_1" value="" x="34.4932" y="30.7848" smashed="yes"/>
-<element name="U$14" library="top" package="L1321542" value="" x="56.6928" y="31.9278" smashed="yes"/>
+<element name="U$14" library="top" package="L1321542" value="" x="55.4228" y="31.9278" smashed="yes"/>
 <element name="U$8" library="SparkFun-IC-Logic" package="SO14" value="74LVC4066D_QUAD_BILATERAL_SWITCH" x="13.843" y="17.399" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.2108" y="13.843" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="PROD_ID" value="IC-13944" x="13.843" y="17.399" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -7661,7 +7664,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="19.939" y="30.226" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="U$20" library="top" package="#WP#13215403132222564" value="" x="19.812" y="27.432" smashed="yes" rot="MR0"/>
-<element name="U$21" library="top" package="GNSS2222502" value="" x="41.656" y="32.893" smashed="yes"/>
+<element name="U$21" library="top" package="GNSS2222502" value="" x="40.894" y="32.893" smashed="yes"/>
 <element name="U$12" library="top" package="#3V3_LED#403132222514" value="" x="59.563" y="17.145" smashed="yes" rot="MR0"/>
 <element name="U$13" library="top" package="#PPS_LED#403132222514" value="" x="59.563" y="20.701" smashed="yes" rot="MR0"/>
 <element name="C8" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="19.177" y="28.575" smashed="yes" rot="R270">
@@ -7878,7 +7881,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="44" y1="35.75" x2="43.2" y2="35.75" width="0.2032" layer="1"/>
 <wire x1="43.2" y1="35.75" x2="41.9" y2="37.05" width="0.2032" layer="1"/>
 <via x="60.2488" y="32.131" extent="1-16" drill="0.3048"/>
-<via x="59.5884" y="29.1846" extent="1-16" drill="0.3048"/>
+<via x="57.6834" y="29.3116" extent="1-16" drill="0.3048"/>
 <contactref element="R3" pad="1"/>
 <contactref element="R4" pad="1"/>
 <contactref element="D3" pad="2"/>
@@ -7971,18 +7974,16 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="50.165" y="24.511" extent="1-16" drill="0.3048"/>
 <via x="52.705" y="24.511" extent="1-16" drill="0.3048"/>
 <via x="55.245" y="24.511" extent="1-16" drill="0.3048"/>
-<via x="54.864" y="29.21" extent="1-16" drill="0.3048"/>
-<via x="53.086" y="29.21" extent="1-16" drill="0.3048"/>
+<via x="53.594" y="29.21" extent="1-16" drill="0.3048"/>
 <via x="44.704" y="28.829" extent="1-16" drill="0.3048"/>
 <via x="46.482" y="26.416" extent="1-16" drill="0.3048"/>
 <via x="43.307" y="23.749" extent="1-16" drill="0.3048"/>
 <via x="44.958" y="24.13" extent="1-16" drill="0.3048"/>
-<via x="57.912" y="30.353" extent="1-16" drill="0.3048"/>
+<via x="56.642" y="30.353" extent="1-16" drill="0.3048"/>
 <via x="57.785" y="24.511" extent="1-16" drill="0.3048"/>
-<via x="59.563" y="26.797" extent="1-16" drill="0.3048"/>
-<via x="57.785" y="25.527" extent="1-16" drill="0.3048"/>
-<via x="54.864" y="26.797" extent="1-16" drill="0.3048"/>
-<via x="53.086" y="26.797" extent="1-16" drill="0.3048"/>
+<via x="57.785" y="26.67" extent="1-16" drill="0.3048"/>
+<via x="56.515" y="25.527" extent="1-16" drill="0.3048"/>
+<via x="53.594" y="26.797" extent="1-16" drill="0.3048"/>
 <via x="50.8" y="29.21" extent="1-16" drill="0.3048"/>
 <via x="50.8" y="26.797" extent="1-16" drill="0.3048"/>
 <via x="49.53" y="26.797" extent="1-16" drill="0.3048"/>
@@ -8068,8 +8069,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="62.9158" y="29.591" extent="1-16" drill="0.3048"/>
 <via x="62.9158" y="27.051" extent="1-16" drill="0.3048"/>
 <via x="62.9158" y="24.511" extent="1-16" drill="0.3048"/>
-<via x="56.134" y="30.353" extent="1-16" drill="0.3048"/>
-<via x="56.134" y="25.527" extent="1-16" drill="0.3048"/>
+<via x="54.864" y="30.353" extent="1-16" drill="0.3048"/>
+<via x="54.864" y="25.527" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="SCL/SCK">
 <contactref element="R13" pad="P6"/>
@@ -8336,8 +8337,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <polygon width="0.2032" layer="1" isolate="0.3048" thermals="no">
 <vertex x="47.5" y="28.5"/>
 <vertex x="47.5" y="27.5"/>
-<vertex x="56.5" y="27.5"/>
-<vertex x="56.5" y="28.5"/>
+<vertex x="54.849" y="27.5"/>
+<vertex x="54.849" y="28.5"/>
 </polygon>
 <wire x1="48.3774" y1="27.9864" x2="46.5136" y2="27.9864" width="1" layer="1"/>
 <wire x1="46.5136" y1="27.9864" x2="46.5" y2="28" width="1" layer="1" curve="-90"/>

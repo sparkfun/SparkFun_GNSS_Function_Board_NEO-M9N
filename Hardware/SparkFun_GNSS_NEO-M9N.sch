@@ -23773,6 +23773,59 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="MS421R_IV03E">
+<description>&lt;h3&gt;SEIKO MS421R Reflowable Lithium Battery&lt;/h3&gt;
+
+&lt;p&gt;
+ML414H is a rechargeable, coin type battery with features
+such as Pb-free reflowable (Peak temperature: 260 C) and
+high temperature heat resistance.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3.3V&lt;/li&gt;
+&lt;li&gt;1.5mAH&lt;/li&gt;
+&lt;li&gt;4.8mm Diameter&lt;/li&gt;
+&lt;li&gt;10uA Discharge Rater&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Seiko%20Instruments%20PDFs/MS421R_MS621R_DS.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
+<circle x="0" y="0" radius="2.4" width="0.0508" layer="51"/>
+<smd name="-" x="0.6" y="-1.85" dx="4.2" dy="1.7" layer="1" stop="no" cream="no"/>
+<polygon width="0.05" layer="1">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<rectangle x1="-1.5" y1="-2.7" x2="2.7" y2="-1" layer="31"/>
+<rectangle x1="-1.5" y1="-2.7" x2="2.7" y2="-1" layer="29"/>
+<smd name="+" x="2.022" y="2.032" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-1.016" y="2.921" size="0.381" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-3.302" size="0.381" layer="27">&gt;VALUE</text>
+<polygon width="0.02" layer="51">
+<vertex x="-1.1" y="-2.4"/>
+<vertex x="2.4" y="-2.4"/>
+<vertex x="2.4" y="-1.01"/>
+<vertex x="-1.1" y="-1.01"/>
+</polygon>
+<polygon width="0.02" layer="51">
+<vertex x="0.8" y="2.4"/>
+<vertex x="2.4" y="2.4"/>
+<vertex x="2.4" y="0.8"/>
+</polygon>
+<wire x1="0.1778" y1="2.3876" x2="-1.7526" y2="-1.6256" width="0.1524" layer="21" curve="138.113903"/>
+<wire x1="2.3876" y1="0.3302" x2="2.2606" y2="-0.8128" width="0.1524" layer="21" curve="-38.722851"/>
+</package>
 <package name="ML414H_IV01E">
 <description>&lt;h3&gt;SEIKO ML414H-IV01E Reflowable Lithium Battery&lt;/h3&gt;
 
@@ -23785,8 +23838,12 @@ high temperature heat resistance.
 &lt;ul&gt;
 &lt;li&gt;3V&lt;/li&gt;
 &lt;li&gt;1mAH&lt;/li&gt;
-&lt;li&gt;4.8mm Diamter&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;4.8mm Diameter&lt;/li&gt;
+&lt;li&gt;5uA Discharge Rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/PDF/Data%20Sheets/Seiko%20Instruments%20PDFs/ML414H_E.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
 <circle x="0" y="0" radius="2.4" width="0.0508" layer="51"/>
 <smd name="-" x="0.6" y="-1.85" dx="4.2" dy="1.7" layer="1" stop="no" cream="no"/>
 <polygon width="0.05" layer="1">
@@ -23826,7 +23883,7 @@ high temperature heat resistance.
 </packages>
 <symbols>
 <symbol name="BATTERY">
-<description>&lt;h3&gt;Battery (Single-Cell)&lt;/h3&gt;</description>
+<description>&lt;h3&gt;Battery&lt;/h3&gt;</description>
 <wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.4064" layer="94"/>
 <wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.4064" layer="94"/>
@@ -23839,30 +23896,13 @@ high temperature heat resistance.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ML414H_IV01E_BATTERY" prefix="BT">
-<description>&lt;h3&gt;SEIKO ML414H-IV01E Reflowable Lithium Battery&lt;/h3&gt;
-
-&lt;p&gt;
-ML414H is a rechargeable, coin type battery with features
-such as Pb-free reflowable (Peak temperature: 260 C) and
-high temperature heat resistance.
-&lt;/p&gt;
-
-Battery Characteristics: 
-&lt;ul&gt;
-&lt;li&gt;3.1V max voltage&lt;/li&gt;
-&lt;li&gt;Voff is 2V&lt;/li&gt;
-&lt;li&gt;1mAH&lt;/li&gt;
-&lt;li&gt;3k series resistor with battery&lt;/li&gt;
-&lt;li&gt;72 hour charge time from 2.0-3.1V&lt;/li&gt;
-&lt;li&gt;2.3-2.8V initial charge&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+<deviceset name="RELOWABLE_BATTERY" prefix="BT">
+<description>&lt;h3&gt;SEIKO Reflowable Lithium Batteries&lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="BATTERY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ML414H_IV01E">
+<device name="_ML414H" package="ML414H_IV01E">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -23870,6 +23910,17 @@ Battery Characteristics:
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="BATT-14267" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MS421R" package="MS421R_IV03E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="BAT-16685" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -26091,7 +26142,7 @@ Supply: 1.65V to 5.5V
 <parts>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
-<part name="B1" library="SparkFun-Batteries" deviceset="ML414H_IV01E_BATTERY" device="" value="6.8MM_COIN_CELL"/>
+<part name="B1" library="SparkFun-Batteries" deviceset="RELOWABLE_BATTERY" device="_MS421R" value="6.8MM_COIN_CELL"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
@@ -26202,7 +26253,7 @@ disable LEDs</text>
 <text x="297.18" y="88.9" size="2.54" layer="94" font="vector" align="center">LEDs and Jumpers</text>
 <text x="170.18" y="86.36" size="2.54" layer="94" font="vector" align="center">Hot Start Battery</text>
 <text x="73.66" y="269.24" size="2.54" layer="94" font="vector" align="center">GPS: u-Blox NEO-M9N </text>
-<text x="231.902" y="86.614" size="2.54" layer="94" font="vector" align="center">SMA Connector</text>
+<text x="231.902" y="86.614" size="2.54" layer="94" font="vector" align="center">u.FL Connector</text>
 <text x="58.42" y="241.3" size="1.27" layer="97" font="vector">VCC Range: 2.7V - 3.3V</text>
 <wire x1="284.48" y1="8.89" x2="284.48" y2="17.78" width="0.2032" layer="97" style="dashdot"/>
 <text x="355.6" y="243.84" size="1.27" layer="97" font="vector">VCC Range: 2.5V - 6V 
@@ -26211,7 +26262,7 @@ disable LEDs</text>
 <text x="70.104" y="135.128" size="2.54" layer="94" font="vector" align="center">Function Card Edge</text>
 <text x="60.96" y="76.2" size="2.54" layer="94" font="vector" align="center">EEPROM</text>
 <text x="363.22" y="271.78" size="2.54" layer="94" font="vector" align="center">Voltage Regulation: AP2112K</text>
-<text x="226.06" y="60.96" size="1.778" layer="97" font="vector">L1 Antenna</text>
+<text x="223.52" y="81.28" size="1.778" layer="97" font="vector">L1 Antenna</text>
 <wire x1="142.24" y1="279.4" x2="142.24" y2="198.12" width="0.2032" layer="97" style="longdash"/>
 <wire x1="142.24" y1="198.12" x2="142.24" y2="144.78" width="0.2032" layer="97" style="longdash"/>
 <wire x1="142.24" y1="144.78" x2="142.24" y2="93.98" width="0.2032" layer="97" style="longdash"/>
