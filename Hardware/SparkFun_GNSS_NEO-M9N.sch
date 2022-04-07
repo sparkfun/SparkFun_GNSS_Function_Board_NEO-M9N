@@ -25659,7 +25659,7 @@ disable LEDs</text>
 <text x="352.044" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <text x="297.18" y="88.9" size="2.54" layer="94" font="vector" align="center">LEDs and Jumpers</text>
 <text x="170.18" y="86.36" size="2.54" layer="94" font="vector" align="center">Hot Start Battery</text>
-<text x="73.66" y="269.24" size="2.54" layer="94" font="vector" align="center">GPS: u-Blox NEO-M9N </text>
+<text x="73.66" y="269.24" size="2.54" layer="94" font="vector" align="center">GPS: u-blox NEO-M9N </text>
 <text x="231.902" y="86.614" size="2.54" layer="94" font="vector" align="center">u.FL Connector</text>
 <text x="58.42" y="241.3" size="1.27" layer="97" font="vector">VCC Range: 2.7V - 3.3V</text>
 <wire x1="284.48" y1="8.89" x2="284.48" y2="17.78" width="0.2032" layer="97" style="dashdot"/>
