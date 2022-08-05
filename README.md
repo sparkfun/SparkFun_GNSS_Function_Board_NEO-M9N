@@ -1,7 +1,7 @@
 SparkFun MicroMod GNSS Function Board - NEO-M9N
 ========================================
 
-[![SparkFun MicroMod GNSS Function Board - NEO-M9N](URL for picture of part)](https://www.sparkfun.com/products/18378)
+[![SparkFun MicroMod GNSS Function Board - NEO-M9N](https://cdn.sparkfun.com/assets/parts/1/7/7/6/1/NEOM9N_01.jpg)](https://www.sparkfun.com/products/18378)
 
 [*SparkFun MicroMod GNSS Function Board - NEO-M9N (GPS-18378)*](https://www.sparkfun.com/products/18378)
 
