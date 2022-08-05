@@ -17,7 +17,7 @@ Documentation
 --------------
 
 * **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library/all)** - Basic information on how to install an Arduino library.
-* **[Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)** - Arduino Library the SparkFun GPS NEO-M9N.
+* **[Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)** - Arduino Library the SparkFun MicroMod GNSS Function Board - NEO-M9N.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/1999)** - Basic hookup guide for the SparkFun MicroMod GNSS Function Board - NEO-M9N.
 
 
